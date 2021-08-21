@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/Bg.jpg");
+	background-image: url("Bg.jpg");
 	/* background-repeat: no-repeat; */
 }
 
@@ -77,12 +77,12 @@ body{
 
   #add_toppings{
 	/* padding-left:30px; */
-	width:150px;
-	height:100px;
+	width:200px;
+	height:180px;
 	border: none;
 	background-color:#e2062c;
 	color:black;
-	font-size: 15px;
+	font-size: 25px;
 	font-family: cursive;
   }
 
@@ -92,7 +92,7 @@ body{
 	line-height: 20px;
 	width: 80%;
 	height: 50px;
-	color: #ffffff;
+	color: #fff;
     background: none;
     border: none;
     border-bottom: 1px solid rgb(223, 205, 205);
@@ -106,7 +106,27 @@ body{
 	color: white;
  }
 
-#im1{
+ol.menulist>li
+{
+	padding-bottom:20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ }
+ 
+ div.card {
+    flex: 0 0 30%;
+	box-sizing: border-box;
+	color:black;
+	margin: 0.5rem .18em;
+	background-color: antiquewhite;
+	align-items: center;
+	font-size: medium;
+}
+.card img{
 	width:100px;
 	height: 80px;
 }
